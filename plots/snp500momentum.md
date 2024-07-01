@@ -1,1 +1,1 @@
-{% include figure.html %}
+{% include snp500momentum.html %}
