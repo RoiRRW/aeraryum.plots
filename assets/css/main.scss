@@ -8,6 +8,7 @@ search: false
 $background-color: #000000;
 $masthead-link-color: #dbdbdb; 
 $link-color: #8a6341;
+$primary-color: #8a6341;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
