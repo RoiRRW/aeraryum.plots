@@ -125,19 +125,19 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "X"
-      icon: "fab fa-fw fa-square-x-twitter"
-      #<i class="fa-brands fa-square-x-twitter"></i>
+    - label: "@aeraryum"
+      icon: "fab fa-fw fa-x-twitter"
       url: "https://x.com/aeraryum"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "Patreon"
+      icon: "fab fa-fw fa-patreon"
+      url: "https://patreon.com/Aeraryum"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/@Aeraryum"
+    - label: "Medium"
+      icon: "fab fa-fw fa-medium"
+      url: "https://medium.com/@aeraryum"
+
 
 # Site Footer
 footer:
