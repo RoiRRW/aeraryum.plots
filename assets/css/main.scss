@@ -5,8 +5,10 @@ search: false
 
 @charset "utf-8";
 
+$background-color: #000000;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
 
-$background-color: #000000;
+
