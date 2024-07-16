@@ -312,3 +312,7 @@ defaults:
       comments: # true
       share: true
       related: true
+  - scope:
+      path: "/.well-known/nostr.json"
+    values:
+      permalink: "/.well-known/nostr.json"
