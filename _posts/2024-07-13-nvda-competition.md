@@ -1,6 +1,7 @@
 ---
 date:               2024-07-13 18:00:00 +0000
 last_modified_at:   2024-07-13 18:00:00 +0000
+exercpt: The artificial intelligence hype turned Nvidia in biggest publicly traded company. Will other hardware manufactured catch up and bust the Nvidia bubble?
 ---
 # Why has Nvidia no Competition?
 In the ever-evolving world of technology, one company stands out as the undisputed leader in the field of Graphics Processing Units (GPUs): Nvidia. With its hidden flagship product, the CUDA library, Nvidia has established itself as a formidable force in GPU programming and development. It creates a pull effect like a black hole. Here is why:
