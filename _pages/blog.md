@@ -60,24 +60,6 @@ classes: wide
   </article>
 </div>
 
-{% assign loopindex = 0 %}
-{% for page in site.pages %}                       
-  {% if page.type == 'project' %}
-    {% assign loopindex = loopindex | plus: 1 %}
-    <div class="span3">{{ loopindex }} {{ page.title }}</div>
-  {% endif %}
-{% endfor %}
-
-{% assign loopindex = 0 %}
-{% for page in site.pages %}                       
-  {% if page.type == 'project' %}
-    {% assign loopindex = loopindex | plus: 1 %}
-    {% assign rowfinder = loopindex | modulo: 4 %}
-    <div class="span3">{{ loopindex }} {{ rowfinder }} {{ page.title }}</div>
-  {% endif %}
-{% endfor %}
-
-
 
 
 {% assign nbr_col = 3 %}
