@@ -236,7 +236,7 @@ pagination:
   debug: false
   collection: 'posts'
   per_page: 10
-  permalink: '/page/:num/'
+  permalink: '/page/blog/:num/'
   title: ':title - page :num'
   limit: 0
   sort_field: 'date'
@@ -314,9 +314,5 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
-      share: true
-      related: true
-  - scope:
-      path: "/.well-known/nostr.json"
-    values:
-      permalink: "/.well-known/nostr.json"
+      share: false
+      related: false
