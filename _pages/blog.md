@@ -26,6 +26,7 @@ classes: wide
   {% assign loopindex = loopindex | plus: 1 %}
   <h2>an article</h2>
   <h2>{{title}}</h2>
+  <h2>{{post.id}}</h2>
   <h2>{{post.title}}</h2>
   <h2>{{loopindex}}</h2>
   <h2>{{rowfinder}}</h2>
