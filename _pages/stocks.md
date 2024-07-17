@@ -5,7 +5,7 @@ layout: splash
 <div class="container">
 <div class="row">
     {% for post in site.posts %}
-    <div class="col">
+    <div class="col-sm">
       <li class="post-item">
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
           <div class="post-info">
