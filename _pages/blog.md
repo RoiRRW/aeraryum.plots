@@ -1,7 +1,8 @@
 ---
 title: "Blog"
 permalink: /blog/
-layout: categories
+layout: collection
+collection: "blog"
 entries_layout: grid
 classes: wide
 ---
