@@ -20,9 +20,9 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "Aeraryum"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Aeraryum"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : 
+description              : "Blog on wealth generation and visualization of stock data and bitcoin onchain data"
+url                      : "https://aeraryum.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -316,3 +316,4 @@ defaults:
       comments: # true
       share: false
       related: false
+      show_date: true
