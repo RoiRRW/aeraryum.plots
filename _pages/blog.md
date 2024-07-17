@@ -41,7 +41,7 @@ classes: wide
 </div>
 
 
-
+<div class="container">
 {% assign nbr_col = 3 %}
 {% assign loopindex = 0 %}
 {% for page in site.pages %}                       
@@ -105,7 +105,7 @@ classes: wide
 {% if rowfinder != 0 %}
   </div>
 {% endif %}
-
+</div>
 
 
 
