@@ -40,6 +40,24 @@ classes: wide
   {% assign title = post.title %}
 {% endif %}
 
+
+<div class="container">
+  {% for post in site.posts %}
+  <div class="row">
+    <div class="col">
+      <div class="archive__item-teaser">
+        <img src="{{ teaser | relative_url }}" alt="">
+      </div>
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <p>{{ post.excerpt }}</p>
+      </li>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+
 <div class="{{ include.type | default: 'list' }}__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"{% if post.locale %} lang="{{ post.locale }}"{% endif %}>
     {% if include.type == "grid" and teaser %}
