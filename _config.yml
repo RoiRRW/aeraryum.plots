@@ -146,7 +146,7 @@ footer:
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/@Aeraryum"
     - label: "Nostr"
-      icon: "/assets/img/nostr_logo_wht.png"
+      icon: "/assets/images/nostr_logo_wht.png"
       url: "https://nostree.me/npub12pfzelk94k8mgtngfawpzf0wapy5nktj9kk2dmnjzlx6pwm62cqqtf87rf"
     - label: "Medium"
       icon: "fab fa-fw fa-medium"
