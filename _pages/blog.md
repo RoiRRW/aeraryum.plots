@@ -42,18 +42,28 @@ classes: wide
 
 
 <div class="container">
-  {% for post in site.posts %}
-  <div class="row">
-    <div class="col">
-      <div class="archive__item-teaser">
-        <img src="{{ teaser | relative_url }}" alt="">
+  {% for post in site.posts %}  
+    {% if post.header.teaser %}
+      {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+    {% else %}
+      {% assign teaser = site.teaser %}
+    {% endif %}    
+    {% if post.id %}
+      {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+    {% else %}
+      {% assign title = post.title %}
+    {% endif %}
+    <div class="row">
+      <div class="col">
+        <div class="archive__item-teaser">
+          <img src="{{ teaser | relative_url }}" alt="">
+        </div>
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+          <p>{{ post.excerpt }}</p>
+        </li>
       </div>
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <p>{{ post.excerpt }}</p>
-      </li>
     </div>
-  </div>
   {% endfor %}
 </div>
 
