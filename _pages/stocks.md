@@ -2,6 +2,7 @@
 permalink: /stocks/
 layout: splash
 ---
+<div class="container">
 <div class="row">
     {% for post in site.posts %}
     <div class="col">
@@ -16,3 +17,4 @@ layout: splash
     </div> 
   {% endfor %}
 </div> 
+</div>
