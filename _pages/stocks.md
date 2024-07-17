@@ -1,0 +1,4 @@
+---
+permalink: /stocks/
+layout: splash
+---
