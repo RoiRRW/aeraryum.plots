@@ -80,21 +80,19 @@ classes: wide
 
 {% assign loopindex = 0 %}
 {% for page in site.pages %}                       
-  {% if page.type == 'project' %}
-    {% assign loopindex = loopindex | plus: 1 %}
-    {% assign rowfinder = loopindex | modulo: 4 %}
-    {% if rowfinder == 1 %}
-      <div class="row">
-      <div class="span3">{{ page.title }}</div>
-    {% elsif rowfinder == 0 %}
-      <div class="span3">{{ page.title }}</div>
-      </div>
-    {% else %}
-      <div class="span3">{{ page.title }}</div>
-    {% endif %}
+  {% assign loopindex = loopindex | plus: 1 %}
+  {% assign rowfinder = loopindex | modulo: 4 %}
+  {% if rowfinder == 1 %}
+    <div class="row">
+    <div class="span3">{{ page.title }}</div>
+  {% elsif rowfinder == 0 %}
+    <div class="span3">{{ page.title }}</div>
+    </div>
+  {% else %}
+    <div class="span3">{{ page.title }}</div>
   {% endif %}
 {% endfor %}
 {% if rowfinder != 0 %}
-      </div>
+  </div>
 {% endif %}
 
