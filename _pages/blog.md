@@ -112,7 +112,7 @@ classes: wide
     </div>    
   {% endif %}
 {% endfor %}
-{% if rowfinder != 0 %}
+{% if rowfinder != 2 %}
   </div>
 {% endif %}
 </div>
