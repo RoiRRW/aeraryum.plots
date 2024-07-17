@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
   - title: "Blog"
     url: /blog/
   - title: "Bitcoin"
     url: /bitcoin/
   - title: "Stocks"
     url: /stocks/
+  - title: "About"
+    url: /about/
 
