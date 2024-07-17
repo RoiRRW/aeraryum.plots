@@ -13,6 +13,6 @@ layout: splash
           </div>
         </a>
       </li>
-    {% endfor %}
-  </div> 
+    </div> 
+  {% endfor %}
 </div> 
