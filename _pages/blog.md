@@ -83,8 +83,8 @@ classes: wide
 {% assign nbr_col = 3 %}
 {% assign loopindex = 0 %}
 {% for page in site.pages %}                       
-  {% assign loopindex = loopindex | plus: 1 %}
   {% assign rowfinder = loopindex | modulo: 3 %}
+  {% assign loopindex = loopindex | plus: 1 %}
   {% if rowfinder == 0 %}
     <div class="row">
       <div class="col-sm-4">
@@ -140,7 +140,7 @@ classes: wide
     </div>    
   {% endif %}
 {% endfor %}
-{% if rowfinder != 2 %}
+{% if rowfinder != 0 %}
   </div>
 {% endif %}
 
