@@ -113,9 +113,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Aeraryum"
+  name             : #"Aeraryum"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Wealth generation is one corner stone of living a free and successful life. Perspectives from a Mathematician & 10+ years in software development and HPC"
+  bio              : #"Wealth generation is one corner stone of living a free and successful life. Perspectives from a Mathematician & 10+ years in software development and HPC"
   location         :
   email            :
   links:
