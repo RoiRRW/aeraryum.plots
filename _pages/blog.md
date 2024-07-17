@@ -24,14 +24,14 @@ classes: wide
   {% endif %}
   {% assign rowfinder = loopindex | modulo: 3 %}
   {% assign loopindex = loopindex | plus: 1 %}
+  <h2>an article</h2>
+  <h2>{{title}}</h2>
+  <h2>{{post.title}}</h2>
+  <h2>{{loopindex}}</h2>
+  <h2>{{rowfinder}}</h2>
   {% if rowfinder == 0 %}
     <div class="row">
       <div class="col-sm-4">
-        <h2>an article</h2>
-        <h2>{{title}}</h2>
-        <h2>{{post.title}}</h2>
-        <h2>{{loopindex}}</h2>
-        <h2>{{rowfinder}}</h2>
         <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"{% if post.locale %} lang="{{ post.locale }}"{% endif %}>
           <div class="archive__item-teaser">
             <img src="{{ teaser | relative_url }}" alt="">
