@@ -1,5 +1,5 @@
 ---  
-layout: home  
+layout: splash  
 title: Blog  
 permalink: /blog/  
 ---  
