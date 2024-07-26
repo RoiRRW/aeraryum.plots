@@ -12,7 +12,7 @@ permalink: /blog/
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>  
 </header>  
 <div class="excerpt">  
-{{ post.excerpt | truncatewords: 50 }}  
+{% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
 </div>  
 </article>  
 {% endfor %}  
