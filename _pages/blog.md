@@ -4,12 +4,6 @@ title: Blog
 permalink: /blog/  
 ---  
   
-<div class="home-hero">  
-<h1>Blog</h1>  
-<p>Welcome to my blog!</p>  
-<a href="{{ site.baseurl }}/archive/">View all posts</a>  
-</div>  
-  
 <section class="home-posts">  
 {% for post in site.posts %}  
 <article class="post-card">  
