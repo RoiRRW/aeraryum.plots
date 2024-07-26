@@ -1,10 +1,36 @@
----
-title: "Blog"
-permalink: /blog/
-layout: splash
-classes: wide
----
-
-
-
+---  
+layout: home  
+title: Blog  
+permalink: /blog/  
+---  
+  
+<div class="home-hero">  
+<h1>Blog</h1>  
+<p>Welcome to my blog!</p>  
+<a href="{{ site.baseurl }}/archive/">View all posts</a>  
+</div>  
+  
+<section class="home-posts">  
+{% for post in site.posts %}  
+<article class="post-card">  
+<header>  
+<img src="{{ post.header.teaser }}" alt="{{ post.title }}">  
+<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>  
+</header>  
+<div class="excerpt">  
+{{ post.excerpt | truncatewords: 50 }}  
+</div>  
+</article>  
+{% endfor %}  
+</section>  
+  
+<div class="pagination">  
+{% if paginator.total_pages > 1 %}  
+<ul>  
+{% for page in (1..paginator.total_pages) %}  
+<li><a href="{{ site.baseurl }}/blog/page/{{ page }}">{{ page }}</a></li>  
+{% endfor %}  
+</ul>  
+{% endif %}  
+</div>  
 
