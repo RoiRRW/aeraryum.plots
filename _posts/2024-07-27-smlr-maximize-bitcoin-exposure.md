@@ -4,7 +4,7 @@ date:               2024-07-27 18:00:00 +0000
 last_modified_at:   2024-07-27 18:00:00 +0000
 excerpt: "Semler Scientific following MicroStrategy's example. Becoming the perfect Bitcoin proxy to increase your Bitcoin exposure."
 header:
-  teaser: /assets/images/smlr_logo.png
+  teaser: /assets/images/smlr_logo_grey.png
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/banner-1.png
