@@ -7,8 +7,10 @@ permalink: /blog/
 <section class="home-posts">  
 {% for post in site.posts %}  
 <article class="post-card">  
-<header>  
-<img src="{{ post.header.teaser }}" alt="{{ post.title }}">  
+<header> 
+<a href="{{ post.url }}">
+  <img src="{{ post.header.teaser }}" alt="{{ post.title }}">    
+</a>
 <h2><a href="{{ post.url }}" class="link-as-text">{{ post.title }}</a></h2>  
 {% include page__meta.html type=include.type %}
 </header>  
