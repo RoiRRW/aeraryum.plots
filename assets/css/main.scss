@@ -28,12 +28,10 @@ $primary-color: #232323;
 @import "minimal-mistakes"; // main partials
 
 ::-moz-selection {
-  color: #000;
-  background: #fff;
+  background-color: rgba(254, 128, 12,0.3);
 }
 
 ::selection {
-  color: #000;
-  background: #fff;
+  background-color: rgba(254, 128, 12,0.3);
 }
 
