@@ -13,7 +13,9 @@ permalink: /blog/
   <img src="{{ post.header.teaser }}" alt="{{ post.title }}">    
 </a>
 </header>  
-{% include page__meta.html type=include.type %}
+<small>
+  {% include page__meta.html type=include.type %}
+</small>
 <div class="excerpt">  
 {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
 </div>  
