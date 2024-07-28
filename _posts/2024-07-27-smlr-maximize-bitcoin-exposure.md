@@ -10,7 +10,7 @@ header:
   overlay_image: /assets/images/banner-1.png
 ---
 Semler Scientific follows the path MicroStrategy has first explored: Adding Bitcoin to the treasury to publicly traded company. A massive success that added a significant amount of value to the stock holders.
-![alt text](/assets/images/mstr_cap_202406221.png)
+![Visualization how large the Market Cap and the value of the Bitcoin position is for the MicroStrategy stock.](/assets/images/mstr_cap_202406221.png)
 *MicroStrategy Market Cap vs Bitcoin Position*
 
 **But why not just buy spot Bitcoin yourself?**
@@ -29,5 +29,5 @@ While publicly traded Bitcoin miners may seem like an obvious choice, they are n
 
 
 Semler checks all these boxes. They have a very profitable business. They have no debt and a big cash position from their high margin cashflow. They have bought a significant amount of Bitcoin already, around half the size of their market cap at the time of writing. And now they announced they are raising additional capital for the purchase of Bitcoin. Public interviews have shown a deep understanding of Bitcoin. Their first Bitcoin related announcement in June also turned around the momentum of the stock. And the volume shows how thanks to Bitcoin a whole new group of investors have found interest in a company that was difficult to find in the large sea of small companies out there.
-![alt text](/assets/images/smlr_200ma.png)
+![Semler Scientific Stock Price breaking through the 200 day moving average after announcing the Bitcoin strategy](/assets/images/smlr_200ma.png)
 *Semler Scientific Stock Price*
