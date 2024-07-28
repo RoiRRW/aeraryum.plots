@@ -1,6 +1,6 @@
 ---  
 layout: single  
-title: Blog  
+title: Blog Articles 
 permalink: /blog/  
 ---  
   
