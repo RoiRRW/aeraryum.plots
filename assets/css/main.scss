@@ -10,6 +10,17 @@ $background-color: #000000;
 $link-color: #d1d1d1;
 $primary-color: #232323;
 
+.link-as-text {
+  text-decoration: none;
+  color: #d1d1d1; /* Color when not hovered, focused or visited */
+}
+
+.link-as-text:hover,
+.link-as-text:focus,
+.link-as-text:visited {
+  color: #d1d1d1; /* Change colors for hover, focus and visited as needed */
+}
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
