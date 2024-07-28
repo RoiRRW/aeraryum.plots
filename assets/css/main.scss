@@ -7,7 +7,7 @@ search: false
 
 $background-color: #000000;
 // $masthead-link-color: #fe800c; 
-$link-color: #fe800c;
+$link-color: #d1d1d1;
 $primary-color: #232323;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
