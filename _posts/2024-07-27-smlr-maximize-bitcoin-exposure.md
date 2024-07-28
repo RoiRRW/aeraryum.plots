@@ -7,13 +7,12 @@ header:
   teaser: /assets/images/smlr_logo.png
   overlay_image: /assets/images/smlr_logo.png
 ---
-
 Semler Scientific follows the path MicroStrategy has first explored: Adding Bitcoin to the treasury to publicly traded company. A massive success that added a significant amount of value to the stock holders.
-
 ![alt text](/assets/images/mstr_cap_202406221.png)
 *MicroStrategy Market Cap vs Bitcoin Position*
 
 **But why not just buy spot Bitcoin yourself?**
+
 If you're convinced of Bitcoin's potential, you may want to consider ways to amplify your investment. Taking on debt responsibly to buy more Bitcoin might be one option. However, as a private individual, accessing fixed and low-interest rates can be challenging.
 One alternative is to invest in Bitcoin proxy stocks, which offer a leveraged play on the Bitcoin price. Publicly traded companies have the ability to issue additional shares and secure debt against their cash flow, providing an attractive option for investors to capitalise on a higher leverage provided by the capital markets.
 While publicly traded Bitcoin miners may seem like an obvious choice, they are not ideal. They operate in a highly competitive market, with revenue directly tied to the Bitcoin price and heavily dependent on low energy costs. Furthermore, they face disadvantages compared to non-publicly traded mining operations, including other companies and potentially even governments in the future.
