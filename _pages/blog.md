@@ -13,12 +13,12 @@ permalink: /blog/
   <img src="{{ post.header.teaser }}" alt="{{ post.title }}">    
 </a>
 </header>  
-<small>
-  {% include page__meta.html type=include.type %}
-</small>
 <div class="excerpt">  
 {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
 </div>  
+<small>
+  {% include page__meta.html type=include.type %}
+</small>
 </article>  
 {% endfor %}  
 </section>  
