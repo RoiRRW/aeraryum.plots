@@ -24,8 +24,8 @@ $primary-color: #232323;
 
 body {
   /* Add a global text shadow effect with a specific color */
-  -webkit-text-shadow: 1px 2px 3px rgba(17, 17, 17, 0.5);
-  text-shadow: 1px 2px 3px rgba(17, 17, 17, 0.5);
+  -webkit-text-shadow: 1px 2px 3px rgba(255, 255, 255, 0.5);
+  text-shadow: 1px 2px 3px rgba(255, 255, 255, 0.5);
 }
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
