@@ -19,6 +19,7 @@ $primary-color: #232323;
 .link-as-text:focus,
 .link-as-text:visited {
   color: #d1d1d1; /* Change colors for hover, focus and visited as needed */
+  transition: none; /* To prevent any animation on hover/focus */
 }
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
