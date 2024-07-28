@@ -9,7 +9,7 @@ permalink: /blog/
 <article class="post-card">  
 <header>  
 <img src="{{ post.header.teaser }}" alt="{{ post.title }}">  
-<h2><a href="{{ post.url }}" style="text-decoration:none; color: #000;">{{ post.title }}</a></h2>  
+<h2><a href="{{ post.url }}" class="link-as-text">{{ post.title }}</a></h2>  
 {% include page__meta.html type=include.type %}
 </header>  
 <div class="excerpt">  
