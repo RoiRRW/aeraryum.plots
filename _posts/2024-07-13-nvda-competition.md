@@ -1,5 +1,5 @@
 ---
-title: "Why has Nvidia no Competition?"
+title: "Why Nvidia has no Competition?"
 date:               2024-07-13 18:00:00 +0000
 last_modified_at:   2024-07-13 18:00:00 +0000
 excerpt: The artificial intelligence hype turned Nvidia in biggest publicly traded company. Will other hardware manufactured catch up and bust the Nvidia bubble?
