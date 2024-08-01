@@ -2,3 +2,16 @@
 permalink: /stocks/
 layout: splash
 ---
+
+
+<section class="home-posts">  
+<article class="post-card">  
+{% assign page_info = site.pages | where: 'name', 'mstr_btc.html' %}
+<header> 
+<h2><a href="mstr.html" class="link-as-text">{{ page_info.title }}</a></h2>  
+<a href="{{ page_info.url }}">
+  <img src="{{ page_info.header.teaser }}" alt="{{ page_info.title }}">    
+</a>
+</header>  
+</article>  
+</section>  
