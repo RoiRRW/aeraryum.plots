@@ -6,7 +6,7 @@ layout: splash
 
 <section class="home-posts">  
 <article class="post-card">  
-{% assign page_info = site.pages | where: 'path', '/_pages/mstr_btc.html' %}
+{% assign page_info = site.pages | where: 'path', '/stocks/mstr_btc.html' | first %}
 <header> 
   <h1>mstr</h1>
 <h2><a href="{{ page_info.url}}" class="link-as-text">{{ page_info.title }}</a></h2>  
