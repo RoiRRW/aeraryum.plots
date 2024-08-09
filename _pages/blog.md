@@ -8,11 +8,11 @@ permalink: /blog/
 {% for post in site.posts %}  
 <article class="post-card">  
 <header> 
-<h3><a href="{{ post.url }}" class="link-as-text">{{ post.title }}</a></h3>  
+</header>  
 <a href="{{ post.url }}">
   <img src="{{ post.header.teaser }}" alt="{{ post.title }}">    
 </a>
-</header>  
+<h3><a href="{{ post.url }}" class="link-as-text">{{ post.title }}</a></h3>  
 <div class="excerpt">  
 {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
 </div>  
