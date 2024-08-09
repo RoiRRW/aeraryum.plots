@@ -6,6 +6,7 @@ excerpt: The artificial intelligence hype turned Nvidia in biggest publicly trad
 header:
   teaser: "https://developer-blogs.nvidia.com/wp-content/uploads/2023/09/nvidia-gpu.jpg"
   overlay_image: "https://developer-blogs.nvidia.com/wp-content/uploads/2023/09/nvidia-gpu.jpg"
+  overlay_filter: 0.5 
 ---
 In the ever-evolving world of technology, one company stands out as the undisputed leader in the field of Graphics Processing Units (GPUs): Nvidia. With its hidden flagship product, the CUDA library, Nvidia has established itself as a formidable force in GPU programming and development. It creates a pull effect like a black hole. Here is why:
 
