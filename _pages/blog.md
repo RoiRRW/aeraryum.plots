@@ -8,7 +8,7 @@ permalink: /blog/
 {% for post in site.posts %}  
 <article class="post-card">  
 <header> 
-<h2><a href="{{ post.url }}" class="link-as-text">{{ post.title }}</a></h2>  
+<h3><a href="{{ post.url }}" class="link-as-text">{{ post.title }}</a></h3>  
 <a href="{{ post.url }}">
   <img src="{{ post.header.teaser }}" alt="{{ post.title }}">    
 </a>
