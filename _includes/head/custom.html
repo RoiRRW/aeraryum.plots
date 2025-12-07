@@ -9,4 +9,20 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 
+<!-- **SEO Additions Start Here** -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{{ page.excerpt | default: 'Aeraryum: Insights on Bitcoin visualizations, macro economic data, and wealth-building tools. Explore interactive charts and blog posts.' | strip_html | truncate: 160 }}">
+<link rel="canonical" href="https://aeraryum.com{{ page.url | default: '/' | relative_url }}">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Aeraryum",
+  "url": "https://aeraryum.com",
+  "description": "{{ page.excerpt | default: 'Tech insights on Bitcoin, macro economics, and wealth management' | strip_html }}",
+  "sameAs": ["https://x.com/Aeraryum", "https://github.com/Aeraryum", "https://hub.docker.com/u/aeraryum", "https://pypi.org/user/Aeraryum/"]
+}
+</script>
+<!-- **SEO Additions End Here** -->
+
 <!-- end custom head snippets -->
